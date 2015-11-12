@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	$(function () {
 	var austDay = new Date();
-	austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 01);
+	austDay = new Date(2016,01,01);
 	$('#defaultCountdown').countdown({until: austDay});
 	$('#year').text(austDay.getFullYear());
 });
