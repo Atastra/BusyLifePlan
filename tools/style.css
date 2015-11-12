@@ -9,7 +9,7 @@ height: 100%;
 body{
 margin:0;
 padding:0;
-background: #fcf9f7 url(../images/bg.jpg) center top fixed no-repeat;
+background: #fcf9f7 url(https://cloud.githubusercontent.com/assets/15809707/11116708/77e8bd98-8988-11e5-86c0-357efbbec9a7.jpg) center top fixed no-repeat;
 font-family:"Helvetica Neue",Helvetica, Arial;
 font-size: 100%;
 }
@@ -26,7 +26,7 @@ div#content {
 width: 100%;
 height: 160px;
 margin: 0 auto;
-background: url(../images/content_bg.png) left bottom repeat-x;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116710/77eafd9c-8988-11e5-8bb9-92148012e870.png) left bottom repeat-x;
 float: left;
 position: relative;
 top: -80px;
@@ -91,7 +91,7 @@ margin: 0 auto;
 
 .right_content{
 width: 900px;
-background: url(../images/blackish.png) repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116709/77e9bb26-8988-11e5-8f4f-0790fc9305a9.png) repeat;
 height: 50px;
 padding: 23px 0 23px 40px;
 }
@@ -121,12 +121,12 @@ ul.social li a.fb{
 width: 24px;
 height: 24px;
 float: left;
-background: url(../images/social.png) 0 0 no-repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) 0 0 no-repeat;
 }
 
 
 ul.social li:hover a.fb{
-background: url(../images/social.png) 0 -24px no-repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) 0 -24px no-repeat;
 }
 
 
@@ -134,12 +134,12 @@ ul.social li a.tw{
 width: 24px;
 height: 24px;
 float: left;
-background: url(../images/social.png) -24px 0 no-repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) -24px 0 no-repeat;
 }
 
 
 ul.social li:hover a.tw{
-background: url(../images/social.png) -24px -24px no-repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) -24px -24px no-repeat;
 }
 
 
@@ -147,12 +147,12 @@ ul.social li a.lin{
 width: 24px;
 height: 24px;
 float: left;
-background: url(../images/social.png) -48px 0 no-repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) -48px 0 no-repeat;
 }
 
 
 ul.social li:hover a.lin{
-background: url(../images/social.png) -48px -24px no-repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) -48px -24px no-repeat;
 }
 
 form.email{
@@ -165,7 +165,7 @@ float: left;
 .get_notified{
 width: 144px;
 line-height: normal;
-background: url(../images/field.png) left top no-repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116711/7805d8ba-8988-11e5-90c4-4c1a42d023b8.png) left top no-repeat;
 font-family:"Helvetica Neue",Helvetica, Arial;
 font-size: 11px;
 color: #595249;
@@ -182,11 +182,11 @@ width: 34px;
 height: 28px;
 float: left;
 border: none;
-background: url(../images/go.png) left top no-repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116712/78155f4c-8988-11e5-9f6b-fe2f8104d4b8.png) left top no-repeat;
 }
 
 .go:hover{
-background: url(../images/go.png) left bottom no-repeat;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116712/78155f4c-8988-11e5-9f6b-fe2f8104d4b8.png) left bottom no-repeat;
 cursor: pointer;
 
 }
