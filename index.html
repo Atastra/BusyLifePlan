@@ -30,6 +30,10 @@
 			</ul>
 			<form class="email" id="email">
 				<input class="get_notified" id="EmailAddress" name="EmailAddress" type="text" onfocus="if(this.value=='Get Notified (Email Address)') this.value='';" onblur="if(this.value=='' || this.value==' ') this.value='Get Notified (Email Address)';" value="Get Notified (Email Address)"/>
+				<input type="hidden" id="Country" name="Country" />
+				<input type="hidden" id="Region" name="Region" />
+				<input type="hidden" id="City" name="City" />
+				<input type="hidden" id="Timestamp" name="Timestamp" />
 				<input type="submit" class="go" value="Send" />
 			</form>
 		</div>
@@ -42,6 +46,16 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-62587011-1', 'auto');
   ga('send', 'pageview');
+</script>
+<script>
+jQuery(document).ready(function($) {
+	jQuery.getScript('http://www.geoplugin.net/javascript.gp', function() {
+	    $("#Country").val(geoplugin_countryName());
+	    $("#Region").val(geoplugin_region());
+	    $("#City").val(geoplugin_city());
+	    $("#Timestamp").val(Date());
+	});
+});
 </script>
 <script>
 $(document).ready(function() {
