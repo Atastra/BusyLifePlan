@@ -1,324 +1,192 @@
-@font-face {
-  font-family: 'Noto Sans';
-  font-weight: 400;
-  font-style: normal;
-  src: url('../fonts/Noto-Sans-regular/Noto-Sans-regular.eot');
-  src: url('../fonts/Noto-Sans-regular/Noto-Sans-regular.eot?#iefix') format('embedded-opentype'),
-       local('Noto Sans'),
-       local('Noto-Sans-regular'),
-       url('../fonts/Noto-Sans-regular/Noto-Sans-regular.woff2') format('woff2'),
-       url('../fonts/Noto-Sans-regular/Noto-Sans-regular.woff') format('woff'),
-       url('../fonts/Noto-Sans-regular/Noto-Sans-regular.ttf') format('truetype'),
-       url('../fonts/Noto-Sans-regular/Noto-Sans-regular.svg#NotoSans') format('svg');
+/* Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+html,body{
+height: 100%;
 }
 
-@font-face {
-  font-family: 'Noto Sans';
-  font-weight: 700;
-  font-style: normal;
-  src: url('../fonts/Noto-Sans-700/Noto-Sans-700.eot');
-  src: url('../fonts/Noto-Sans-700/Noto-Sans-700.eot?#iefix') format('embedded-opentype'),
-       local('Noto Sans Bold'),
-       local('Noto-Sans-700'),
-       url('../fonts/Noto-Sans-700/Noto-Sans-700.woff2') format('woff2'),
-       url('../fonts/Noto-Sans-700/Noto-Sans-700.woff') format('woff'),
-       url('../fonts/Noto-Sans-700/Noto-Sans-700.ttf') format('truetype'),
-       url('../fonts/Noto-Sans-700/Noto-Sans-700.svg#NotoSans') format('svg');
+body{
+margin:0;
+padding:0;
+background: #fcf9f7 url(https://cloud.githubusercontent.com/assets/15809707/11116708/77e8bd98-8988-11e5-86c0-357efbbec9a7.jpg) center top fixed no-repeat;
+font-family:"Helvetica Neue",Helvetica, Arial;
+font-size: 100%;
 }
 
-@font-face {
-  font-family: 'Noto Sans';
-  font-weight: 400;
-  font-style: italic;
-  src: url('../fonts/Noto-Sans-italic/Noto-Sans-italic.eot');
-  src: url('../fonts/Noto-Sans-italic/Noto-Sans-italic.eot?#iefix') format('embedded-opentype'),
-       local('Noto Sans Italic'),
-       local('Noto-Sans-italic'),
-       url('../fonts/Noto-Sans-italic/Noto-Sans-italic.woff2') format('woff2'),
-       url('../fonts/Noto-Sans-italic/Noto-Sans-italic.woff') format('woff'),
-       url('../fonts/Noto-Sans-italic/Noto-Sans-italic.ttf') format('truetype'),
-       url('../fonts/Noto-Sans-italic/Noto-Sans-italic.svg#NotoSans') format('svg');
+div#shim{
+visibility: hidden;
+width: 100%;
+height: 50%;                                                                     
+margin-top: -80px;                                                              
+float: left;
 }
 
-@font-face {
-  font-family: 'Noto Sans';
-  font-weight: 700;
-  font-style: italic;
-  src: url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot');
-  src: url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot?#iefix') format('embedded-opentype'),
-       local('Noto Sans Bold Italic'),
-       local('Noto-Sans-700italic'),
-       url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff2') format('woff2'),
-       url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff') format('woff'),
-       url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
-       url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
+div#content {
+width: 100%;
+height: 160px;
+margin: 0 auto;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116708/77e8bd98-8988-11e5-86c0-357efbbec9a7.jpg) left bottom repeat-x;
+float: left;
+position: relative;
+top: -80px;
+
+/* IE4ever Hack: Hide from IE4 **/
+position: static;
+/** end hack */
 }
 
-body {
-  background-color: #fff;
-  padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
-  font-weight:400;
+/* Hide from IE5mac \*//*/
+div#shim {
+display: none;
+}
+html, body {
+height: auto;
+}
+/* end hack */
+/* ]]> */
+
+.logo{
+width: 940px;
+margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
+h1{
+font-size: 36px;
+color: #292928;
+margin-bottom: 19px;
+letter-spacing: -2px;
+font-weight: 200;
+text-shadow:0px 0px 5px #514e45;
+text-transform: uppercase;
+text-align: center;
 }
 
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+h2{
+padding: 0px 3px;
+line-height: normal;
+background: #fff;
+font-size: 18px;
+font-weight: 200;
+float: left;
+text-transform: uppercase;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
+
+
+h1 span{
+font-weight: 500;
 }
 
-h1 {
-  font-size:28px;
+.clear{
+clear: both;
 }
 
-h2 {
-  color:#393939;
+
+.right_side{
+width: 940px;
+margin: 0 auto;
 }
 
-h3, h4, h5, h6 {
-  color:#494949;
+
+.right_content{
+width: 900px;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116709/77e9bb26-8988-11e5-8f4f-0790fc9305a9.png) repeat;
+height: 50px;
+padding: 23px 0 23px 40px;
 }
 
-a {
-  color:#39c;
-  text-decoration:none;
+
+
+.right_content h2{
+margin-top: 12px;
+margin-right: 60px;
 }
 
-a:hover {
-  color:#069;
+ul.social{
+list-style: none;
+width: 120px;
+float: left;
+height: 24px;
+margin-top: 12px;
+margin-right: 38px;
 }
 
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
+ul.social li{
+float: left;
+margin-right: 16px;
 }
 
-a:hover small {
-  color:#777;
+ul.social li a.fb{
+width: 24px;
+height: 24px;
+float: left;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) 0 0 no-repeat;
 }
 
-.wrapper {
-  width:860px;
-  margin:0 auto;
+
+ul.social li:hover a.fb{
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) 0 -24px no-repeat;
 }
 
-blockquote {
-  border-left:1px solid #e5e5e5;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
+
+ul.social li a.tw{
+width: 24px;
+height: 24px;
+float: left;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) -24px 0 no-repeat;
 }
 
-code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
-  font-size:12px;
+
+ul.social li:hover a.tw{
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) -24px -24px no-repeat;
 }
 
-pre {
-  padding:8px 15px;
-  background: #f8f8f8;
-  border-radius:5px;
-  border:1px solid #e5e5e5;
-  overflow-x: auto;
+
+ul.social li a.lin{
+width: 24px;
+height: 24px;
+float: left;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) -48px 0 no-repeat;
 }
 
-table {
-  width:100%;
-  border-collapse:collapse;
+
+ul.social li:hover a.lin{
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116713/7816a3ca-8988-11e5-81de-5661c08a66a5.png) -48px -24px no-repeat;
 }
 
-th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+form.email{
+padding: 0;
+margin: 10px 0 0 0;
+width: 204px;
+float: left;
 }
 
-dt {
-  color:#444;
-  font-weight:700;
+.get_notified{
+width: 144px;
+line-height: normal;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116711/7805d8ba-8988-11e5-90c4-4c1a42d023b8.png) left top no-repeat;
+font-family:"Helvetica Neue",Helvetica, Arial;
+font-size: 11px;
+color: #595249;
+border: none;
+padding: 7px 10px;
+margin-right: 6px;
+float: left;
 }
 
-th {
-  color:#444;
+.go{
+padding: 0;
+margin: 0;
+width: 34px;
+height: 28px;
+float: left;
+border: none;
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116712/78155f4c-8988-11e5-9f6b-fe2f8104d4b8.png) left top no-repeat;
 }
 
-img {
-  max-width:100%;
-}
+.go:hover{
+background: url(https://cloud.githubusercontent.com/assets/15809707/11116712/78155f4c-8988-11e5-9f6b-fe2f8104d4b8.png) left bottom no-repeat;
+cursor: pointer;
 
-header {
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
-
-header ul {
-  list-style:none;
-  height:40px;
-  padding:0;
-  background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
-  width:270px;
-}
-
-header li {
-  width:89px;
-  float:left;
-  border-right:1px solid #e0e0e0;
-  height:40px;
-}
-
-header li:first-child a {
-  border-radius:5px 0 0 5px;
-}
-
-header li:last-child a {
-  border-radius:0 5px 5px 0;
-}
-
-header ul a {
-  line-height:1;
-  font-size:11px;
-  color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:34px;
-}
-
-header ul a:hover {
-  color:#999;
-}
-
-header ul a:active {
-  background-color:#f0f0f0;
-}
-
-strong {
-  color:#222;
-  font-weight:700;
-}
-
-header ul li + li + li {
-  border-right:none;
-  width:89px;
-}
-
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
-}
-
-section {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
-}
-
-small {
-  font-size:11px;
-}
-
-hr {
-  border:0;
-  background:#e5e5e5;
-  height:1px;
-  margin:0 0 20px;
-}
-
-footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
-
-@media print, screen and (max-width: 960px) {
-
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
-
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
-
-  header {
-    padding-right:320px;
-  }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
-  }
-
-  header a small {
-    display:inline;
-  }
-
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
-}
-
-@media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-
-  header {
-    padding:0;
-  }
-
-  header ul, header p.view {
-    position:static;
-  }
-
-  pre, code {
-    word-wrap:normal;
-  }
-}
-
-@media print, screen and (max-width: 480px) {
-  body {
-    padding:15px;
-  }
-
-  header ul {
-    width:99%;
-  }
-
-  header li, header ul li + li + li {
-    width:33%;
-  }
-}
-
-@media print {
-  body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
-  }
 }
