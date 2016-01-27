@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Health & Fitness"
-meta_title: "Busy life plans for Health & Fitness"
+title: "Food & Meals"
+meta_title: "Busy life plans for Food & Meals"
 subheadline: "Plans"
-teaser: "The BusyLifePlan.com archive of Health & Fitness plans"
-permalink: "/health/"
+teaser: "The BusyLifePlan.com archive of Food & Meals plans"
+permalink: "/food/"
 ---
-{% include list-posts entries='12' category='health' %}
+{% include list-posts entries='12' category='food' %}
