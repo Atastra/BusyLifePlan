@@ -5,16 +5,24 @@
   url: "/"
   side: left
 
-- title: "Dropdown Menu"
-  url: "#"
+- title: "Busy Life Plans"
+  url: "/archive/"
   side: left
   dropdown:
-  - title: "Dropdown Menu 1"
-    url: "#"
-  - title: "Dropdown Menu 2"
-    url: "#"
-  - title: "Dropdown Menu 3"
-    url: "#"
+  - title: "Health & Fitness"
+    url: "/health/"
+  - title: "Food & Meals"
+    url: "/food/"
+  - title: "Home & Housekeeping"
+    url: "/home/"
+  - title: "Family & Kids"
+    url: "/family/"
+  - title: "Work & Career"
+    url: "/career/"
+  - title: "Money & Finance"
+    url: "/finance/"
+- title: "Hobbies & Entertainment"
+    url: "/entertainment/"
 
 - title: Blog
   url: "/blog/"
