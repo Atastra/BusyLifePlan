@@ -21,7 +21,7 @@
     url: "/career/"
   - title: "Money & Finance"
     url: "/finance/"
-- title: "Hobbies & Entertainment"
+  - title: "Hobbies & Entertainment"
     url: "/entertainment/"
 
 - title: Blog
