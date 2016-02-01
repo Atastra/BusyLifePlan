@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Food & Meals"
 meta_title: "Busy life plans for Food & Meals"
 subheadline: "Plans"
