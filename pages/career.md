@@ -4,7 +4,7 @@ title: "Work & Career"
 meta_title: "Busy life plans for Work & Career"
 subheadline: "Plans"
 teaser: "The BusyLifePlan.com archive of Work & Career plans"
-permalink: "/work/"
+permalink: "/career/"
 header:
    image_fullwidth: "banner-work.jpg"	
 breadcrumb: true
