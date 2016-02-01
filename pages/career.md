@@ -9,4 +9,4 @@ header:
    image_fullwidth: "banner-work.jpg"	
 breadcrumb: true
 ---
-{% include list-posts entries='12' category='work' %}
+{% include list-posts entries='12' category='career' %}
