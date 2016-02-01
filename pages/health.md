@@ -6,7 +6,7 @@ subheadline: "Plans"
 teaser: "The BusyLifePlan.com archive of Health & Fitness plans"
 permalink: "/health/"
 header:
-   image_fullwidth: "health.png"	
+   image_fullwidth: "banner-health.png"	
 breadcrumb: true
 ---
 {% include list-posts entries='12' category='health' %}

@@ -6,7 +6,7 @@ subheadline: "Plans"
 teaser: "The BusyLifePlan.com archive of Hobbies & Entertainment plans"
 permalink: "/entertainment/"
 header:
-   image_fullwidth: "entertainment.jpg"	
+   image_fullwidth: "banner-entertainment.jpg"	
 breadcrumb: true
 ---
 {% include list-posts entries='12' category='entertainment' %}

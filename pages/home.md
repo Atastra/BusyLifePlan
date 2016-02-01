@@ -6,7 +6,7 @@ subheadline: "Plans"
 teaser: "The BusyLifePlan.com archive of Home & Housekeeping plans"
 permalink: "/home/"
 header:
-   image_fullwidth: "home.jpg"	
+   image_fullwidth: "banner-home.jpg"	
 breadcrumb: true
 ---
 {% include list-posts entries='12' category='home' %}
