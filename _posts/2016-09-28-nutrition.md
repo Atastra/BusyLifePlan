@@ -4,32 +4,22 @@ layout: page
 # Content
 #
 subheadline: "Dummy"
-title: "You can delete this file"
-teaser: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+title: "Realistic ways to Embrace Healthier Eating"
+teaser: ""
 categories:
   - health
 tags:
-  - test
+  - health
+  - food
 #
 # Styling
 #
 image:
   header: ""
-  thumb: "you-can-delete-me-thumb.png"
-  homepage: "you-can-delete-me-homepage.png"
-  caption: "Caption?"
-  url: "http://phlow.de/"
+  thumb: ""
+  homepage: ""
+  caption: ""
+  url: "http://greatist.com/grow/easy-health-tips-busy-lifestyles"
 ---
-
-
-
- [1]: #
- [2]: #
- [3]: #
- [4]: #
- [5]: #
- [6]: #
- [7]: #
- [8]: #
- [9]: #
- [10]: #
+Greatest.com has a selection of really good tips to fit some healthy meals into your busy day.
+(35 Realistic Ways to Squeeze Healthier Habits Into Super Busy Schedules)|[http://greatist.com/grow/easy-health-tips-busy-lifestyles]
